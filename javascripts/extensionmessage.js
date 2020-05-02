@@ -1,0 +1,5 @@
+/*
+ *  Extension Message Pass workers
+ *  2011-11
+ */
+var RLF_ID="decdfngdidijkdjgbknlnepdljfaepji",AW_ID="alelhddbbhepgpmgidjdcjakblofbmce",QN_ID="mijlebbfndhelmdpmllgcfadlkankhok",DIIGO_ID="oojbgadfejifecebmdnhhkbhdjaphole";function sendsettingtoother(e){chrome.runtime.sendMessage(AW_ID,{action:"setoption",key:e},function(e){}),chrome.runtime.sendMessage(QN_ID,{action:"setoption",key:e},function(e){}),chrome.runtime.sendMessage(RLF_ID,{action:"setoption",key:e},function(e){})}function getsettingformother(){chrome.runtime.sendMessage(AW_ID,{action:"getoption"},function(e){"false"==e.key&&Prefs.set({"prefs.SearchO":!1})}),chrome.runtime.sendMessage(QN_ID,{action:"getoption"},function(e){"false"==e.key&&Prefs.set({"prefs.SearchO":!1})}),chrome.runtime.sendMessage(RLF_ID,{action:"getoption"},function(e){"false"==e.key&&Prefs.set({"prefs.SearchO":!1})})}chrome.runtime.onMessageExternal.addListener(function(e,n,t){switch(e.action){case"getoption":t({key:key});break;case"setoption":t({message:"Awesome Screenshot is Done"})}});

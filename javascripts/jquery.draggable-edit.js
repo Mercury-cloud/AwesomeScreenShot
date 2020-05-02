@@ -1,0 +1,4 @@
+/**
+  * An ultra simple draggable class
+ */
+jQuery.Draggable=function(u,e){var n=jQuery,t=!1;(u=this.ele=n(u))[0]._draggable&&u[0]._draggable.destroy();var s,d,g=(u[0]._draggable=this).options=n.extend({handle:"",cursor:"move",axis:"",onDrag:function(){return!0},beforeDrag:function(){},afterDrag:function(){}},e||{});function a(e){return t=!1,n(document).bind("mousemove",r).bind("mouseup",o),s=e.pageX,d=e.pageY,!1}function r(e){if(t||g.beforeDrag(e),!e.undraggable){t=!0;var n=parseInt(u.css("left")),a=parseInt(u.css("top")),r=e.pageX-s,o=e.pageY-d;return"y"==g.axis?r=0:"x"==g.axis&&(o=0),u.css({left:n+r,top:a+o}),g.onDrag(n,a,r,o),s=e.pageX,d=e.pageY,!1}}function o(e){return n(document).unbind("mousemove",r).unbind("mouseup",o),!t||(g.afterDrag(e),!1)}g.handle=g.handle?n(g.handle,u):u,g.handle.css({cursor:g.cursor}),this.destroy=function(){g.handle.unbind("mousedown",a)},g.handle.bind("mousedown",a)};

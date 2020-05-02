@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="38px" viewBox="0 0 300 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>bg</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-391.000000, -11.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="编组-65" transform="translate(391.000000, 11.000000)">
+                <g id="Rectangle">
+                    <g id="编组">
+                        <path d="M0,38.417941 L0,0 L0,0 L145.886033,0 C147.947132,2.28591764e-15 149.670805,1.56614901 149.867734,3.61781793 L152.473385,30.7643641 C152.867242,34.867702 156.314589,38 160.436786,38 L300,38 L300,38 L300,384 L0,384 L0,38.417941 Z" id="Rectangle" transform="translate(150.000000, 192.000000) scale(-1, 1) translate(-150.000000, -192.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

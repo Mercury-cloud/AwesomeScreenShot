@@ -1,0 +1,278 @@
+﻿{
+	"extName": {
+		"message": "网页截图:注释&录屏",
+		"description": "Extension name."
+	},
+	"extDesc":{
+		"message": "录屏，捕获整个页面或任何部分，矩形，圆形，箭头，线条和文字，模糊敏感信息，一键上传分享注释。支持PNG和链接",
+		"description": "Extension description."
+	},
+	
+	"editTitle":{
+		"message": "添加注释",
+		"description": "Annotate page title"
+	},
+	"logo":{
+		"message": "网页截图",
+		"description": "Awesome Screenshot logo title"
+	},
+	"saveBtn":{
+		"message": "保存",
+		"description": "Save button"
+	},
+	"tip1":{
+		"message": "Screen captured, ready to",
+		"description": "Screen captured, ready to"
+	},
+	"tip2":{
+		"message": "and Annotate ",
+		"description": "and Annotate "
+	},
+	"crop":{
+		"message": "裁剪",
+		"description": "Crop title"
+	},
+	"cropTip":{
+		"message": "Click and drag to select",
+		"description": "Crop Tooltip"
+	},
+	"doneBtn":{
+		"message": "裁剪"
+	},
+	"cancelBtn":{
+		"message": "取消",
+		"description": "Cancel button"
+	},
+	"rectangle":{
+		"message": "矩形",
+		"description": "Rectangle title"
+	},
+	"ellipse":{
+		"message": "椭圆",
+		"description": "Ellipse title"
+	},
+	"arrow":{
+		"message": "箭头",
+		"description": "Arrow title"
+	},
+	"line":{
+		"message": "直线",
+		"description": "Line title"
+	},
+	"freeline":{
+		"message": "笔画",
+		"description": "Free Line title"
+	},
+	"blur":{
+		"message": "模糊",
+		"description": "Blur title"
+	},
+	"text":{
+		"message": "文本",
+		"description": "Text title"
+	},
+	"color":{
+		"message": "选择颜色",
+		"description": "Color Picker title"
+	},
+	"undo":{
+		"message": "撤销",
+		"description": "Undo title"
+	},
+	
+	"image_loader":{
+		"message": "Preparing your image",
+		"description": "Preparing loader"
+	},
+	"save_congrats":{
+		"message": "Congrats! Here is your screenshot.",
+		"description": "Congratulations"
+	},
+	"save_howto":{
+		"message": "How to use it?",
+		"description": "How to header"
+	},
+	"save_local":{
+		"message": "Option 1: Save image as a file"
+	},
+	"save_button":{
+		"message": "Save"
+	},
+	"share":{
+		"message": "Option 2: Upload it to get a shareable link"
+	},
+	"savedShareDesc":{
+		"message": "$CODE1$Upload$CODE2$Uploading$CODE3$Cancel$CODE4$Fail to upload to awesomescreenshot.com. You can crop the image to a smaller size and $CODE5$try it again$CODE6$. Shoot an email to $CODE7$screenshot@diigo.com$CODE8$if you still experience problems. $CODE8_5$Twitter$CODE9$Facebook$CODE10$Weibo$CODE11$Gmail$CODE12$Yahoo mail$CODE13$Hotmail$CODE14$Image Link (share via MSN, GTalk, etc.)$CODE15$Link Copied!$CODE16$",
+		"description": "Option 3 details description",
+		"placeholders": {
+			"code1": {
+				"content": "<p><a id='upload' href='javascript:void(0)'><span></span>",
+				"example": "<a></a>"
+			},
+			"code2": {
+				"content": "</a> to <a href='http://awesomescreenshot.com' target='_blank' class='lightLink'>awesomescreenshot.com</a></p><div id='loader'>",
+				"example": "<a></a>"
+			},
+			"code3": {
+				"content": "<a id='cancel_upload' href='javascript:void(0)'>",
+				"example": "<a></a>"
+			},
+			"code4": {
+				"content": "</a></div><div id='error'>",
+				"example": "<a></a>"
+			},
+			"code5": {
+				"content": "<a href='javascript:void(0)' id='retry'>",
+				"example": "<a></a>"
+			},
+			"code6": {
+				"content": "</a>",
+				"example": "<a></a>"
+			},
+			"code7": {
+				"content": "<a id='upload_error_contact' href='mailto:screenshot@diigo.com?subject=Awesome Screenshot (Chrome) Upload Error'>",
+				"example": "<a></a>"
+			},
+			"code8": {
+				"content": "</a>",
+				"example": "<a></a>"
+			},
+			"code8_5": {
+				"content": "</div><div id='share-button'><a id='twitter' href='http://twitter.com/home?status=' target='_blank'><span></span>"
+			},
+			"code9": {
+				"content": "</a><a id='facebook' href='http://www.facebook.com/sharer.php?u=' target='_blank'><span></span>",
+				"example": "<a></a>"
+			},
+			"code10": {
+				"content": "</a><a id='weibo' href='http://service.weibo.com/share/share.php?' target='_blank'><span></span>",
+				"example": "<a></a>"
+			},
+			"code11": {
+				"content": "</a></div><div id='email-link'><a id='gmail' href='https://mail.google.com/mail/?view=cm&tf=0&fs=1&body=' target='_blank'><span></span>",
+				"example": "<a></a>"
+			},
+			"code12": {
+				"content": "</a><a id='yahoo' href='http://compose.mail.yahoo.com/' target='_blank'><span></span>",
+				"example": "<a></a>"
+			},
+			"code13": {
+				"content": "</a><a id='hotmail' href='http://www.hotmail.msn.com/secure/start?action=compose&body=' target='_blank'><span></span>",
+				"example": "<a></a>"
+			},
+			"code14": {
+				"content": "</a></div><div id='share-link'><p>",
+				"example": "<a></a>"
+			},
+			"code15": {
+				"content": "</p><input type='text' /><span>",
+				"example": "<a></a>"
+			},
+			"code16": {
+				"content": "</span></div>",
+				"example": "<a></a>"
+			}
+		}
+	},
+	"reEdit":{
+		"message": "Re-edit this screenshot",
+		"description": "Re-edit link takes user back to re-edit the screenshot"
+	},
+	"tweet":{
+		"message": "Please Tweet about Awesome Screenshot"
+	},
+	"rating":{
+		"message": "Give it a nice 5-star rating to show your support!"
+	},
+	"cemail":{
+		"message": "Contact care@awesomescreenshot.com for suggestions."
+	},
+	"diigo_web_highlighter":{
+		"message": "Web Highlighter - Another Extension by Diigo"
+	},
+	
+	"visible": {
+		"message": "$CODE1$截取可视部分",
+		"description": "Popup menu",
+		"placeholders": {
+			"code1": {
+				"content": "<span></span>",
+				"example": "<a></a>"
+			}
+		}
+	},
+	"selected":{
+		"message":"$CODE1$截取选择部分",
+		"placeholders": {
+			"code1": {
+				"content": "<span></span>"
+			}
+		}
+	},
+	"entire": {
+		"message": "$CODE1$截取整个页面",
+		"description": "Popup menu",
+		"placeholders": {
+			"code1": {
+				"content": "<span></span>",
+				"example": "<a></a>"
+			}
+		}
+	},
+    "upload": {
+        "message": "$CODE1$选择一张本地图片",
+        "description": "Popup menu",
+        "placeholders": {
+            "code1": {
+                "content": "<span></span>",
+                "example": "<a></a>"
+            }
+        }
+    },
+    "desktop": {
+        "message": "$CODE1$截取桌面窗口",
+        "description": "Popup menu",
+        "placeholders": {
+            "code1": {
+                "content": "<span></span>",
+                "example": "<a></a>"
+            }
+        }
+    },
+	"visible_title": {
+		"message": ""
+	},
+	"entire_title": {
+		"message": ""
+	},
+	"disableEntireTitle": {
+		"message": "Not working in extension gallery or local page",
+		"description": "Disable Entire Title"
+	},
+	"capture_hint": {
+		"message": "$CODE1$Capturing",
+		"description": "Capturing hint",
+		"placeholders": {
+			"code1": {
+				"content": "<span></span>",
+				"example": "<a></a>"
+			}
+		}
+	},
+	"scriptOff": {
+		"message": "Script not loaded, $CODE1$reload$CODE2$",
+		"description": "Capturing hint",
+		"placeholders": {
+			"code1": {
+				"content": "<a href='javascript:void(0)'>",
+				"example": "<a></a>"
+			},
+			"code2": {
+				"content": "</a>",
+				"example": "<a></a>"
+			}
+		}
+	}
+	
+	
+}
